@@ -3,19 +3,198 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
+#header-logo {
+  background-color: white;
+  color: papayawhip;
+  font-size: 60px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fa-calculator {
+  color: mistyrose;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: mistyrose;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+  /* margin: 0px 337.08px 0px 337.08px; */
+  /* padding: 0px 0px 0px 0px; */
+
+}
+
+.Calculator-Style {
+  font-size: 60px;
+}
+
+.Main-Input {
+  font-size: 30px;
+  background-color: white;
+}
+
+#button {
+  background: mistyrose;
+  color: white;
+}
+
+.button-style {
+  font-size: 30px;
+
+}
+
+.Card-Container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.item1 {
+  background: papayawhip;
+  grid-column: span 2;
+  grid-row: span 24;
+  align-items: center;
+  padding: 50px;
+
+}
+
+.item2 {
+  background: papayawhip;
+  grid-column: span 2;
+  grid-row: span 24;
+  align-items: center;
+  padding: 50px;
+}
+
+.item3 {
+  background: papayawhip;
+  grid-column: span 2;
+  grid-row: span 24;
+  align-items: center;
+  padding: 50px;
+}
+
+.Base-Weight {
+  font-size: 100px;
+  border: solid;
+  border-color: papayawhip;
+}
+
+.First-Unordered-List {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: left;
+  height: 100%;
+  width: 20%;
+}
+
+.first-list-first-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.first-list-second-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.first-list-third-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.Rest-Day {
+  font-size: 100px;
+  border: ;
+  border-color: papayawhip;
+}
+
+.Second-Unordered-List {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: left;
+  height: 100%;
+  width: 20%;
+}
+.second-list-first-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.second-list-second-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.second-list-third-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.Gym-Day {
+  font-size: 100px;
+  border: ;
+  border-color: papayawhip;
+}
+
+.Third-Unordered-List {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: left;
+  height: 100%;
+  width: 20%;
+}
+
+.third-list-first-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.third-list-second-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.third-list-third-item {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.fas {
   color: white;
 }
 
