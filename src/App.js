@@ -14,6 +14,18 @@ class App extends Component {
     }
   }
 
+  toggleShowCard() {
+    if (this.state.showCard === false) {
+      this.setState({showCard: true})
+    } else if (this.state.showCard === true) {
+      this.setState({showCard: false})
+    }
+  }
+
+  handleButtonClick() {
+    this.toggleShowCard();
+  }
+  
   render() {
 
     return (
@@ -30,11 +42,16 @@ class App extends Component {
           <div>
             <label></label>
             <input className="Main-Input" placeholder="Weight in lbs"/>
-            <button id="button"><span class="button-style"><i className="far fa-caret-square-right"></i></span></button>
+            <button 
+                id="button">
+                    <span class="button-style">
+                        <i className="far fa-caret-square-right"></i>
+                    </span>
+            </button>
           </div>
         </header>
         <div className="Card-Container">
-          <BaseWeight />
+          <BaseWeight onclick={this.handleButtonClick}/>
 
           <LeanBulkRestDayCard />
           

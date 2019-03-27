@@ -16,10 +16,6 @@
   justify-content: flex-start;
 }
 
-.fa-calculator {
-  color: mistyrose;
-}
-
 .App-header {
   background-color: mistyrose;
   min-height: 500px;
@@ -29,6 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
   /* margin: 0px 337.08px 0px 337.08px; */
   /* padding: 0px 0px 0px 0px; */
 
@@ -68,7 +65,8 @@
   grid-row: span 24;
   align-items: center;
   padding: 50px;
-
+  border: solid;
+  border-color: black;
 }
 
 .item2 {
@@ -77,6 +75,8 @@
   grid-row: span 24;
   align-items: center;
   padding: 50px;
+  border: solid;
+  border-color: black;
 }
 
 .item3 {
@@ -85,6 +85,8 @@
   grid-row: span 24;
   align-items: center;
   padding: 50px;
+  border: solid;
+  border-color: black;
 }
 
 .Base-Weight {
@@ -125,7 +127,6 @@
 
 .Rest-Day {
   font-size: 100px;
-  border: ;
   border-color: papayawhip;
 }
 
@@ -160,7 +161,6 @@
 
 .Gym-Day {
   font-size: 100px;
-  border: ;
   border-color: papayawhip;
 }
 
